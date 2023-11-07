@@ -1,0 +1,98 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.productosCont a {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.productosCont {
+    padding-left: 10vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 4;
+    row-gap: 2vw;
+    grid-template-areas: 
+    "p1 p2 p3"
+    "p4 p5 p6"
+    "p7 p8 p9";
+}
+
+.prod {
+    background-color: rgb(135, 135, 135);
+    border: 0.5vw solid white;
+    height: 20vw;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p1 {
+    grid-area: p1;
+}
+
+.p2 {
+    grid-area: p2;
+}
+
+.p3 {
+    grid-area: p3;
+}
+
+.p4 {
+    grid-area: p4;
+}
+
+.p5 {
+    grid-area: p5;
+}
+
+.p6 {
+    grid-area: p6;
+}
+
+.p7 {
+    grid-area: p7;
+}
+
+.p8 {
+    grid-area: p8;
+}
+
+.p9 {
+    grid-area: p9;
+}
+
+.prodName {
+    color: black;
+    text-align: center;
+    font-size: 2vw;
+}
+
+.prodView {
+
+    width: 12vw;
+    height: 12vw;
+}
+
+.prod:hover p {
+    color: white;  
+    text-shadow: 0.15vw 0.15vw 0px black; 
+}
+
+.prod:hover img {
+    -webkit-transform:scale(1.15);
+    -moz-transform:scale(1.15);
+    -ms-transform:scale(1.15);
+    -o-transform:scale(1.15);
+    transform:scale(1.15);
+}
