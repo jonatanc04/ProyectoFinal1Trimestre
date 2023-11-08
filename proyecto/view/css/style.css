@@ -1,0 +1,218 @@
+@font-face {
+    font-family: "Lexend";
+    src: url(../font/lexendgiga.ttf);
+}
+
+* {
+    margin: 0;
+}
+
+#header {
+    background-color: rgb(206, 206, 206);
+}
+
+.icono {
+    width: 1.5vw;
+    height: 1.5vw;
+    
+}
+
+.logo {
+    width: 5vw;
+    height: 5vw;
+}
+
+p {
+    font-family:'Lexend';
+    width: fit-content;
+    font-size: 1.3vw;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#header * {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#header *:hover {
+    background-color: rgb(135, 135, 135);
+    color: black;
+}
+
+#body {
+    background: linear-gradient(to left, rgb(54, 54, 54), rgb(22, 22, 22));
+}
+
+.ps5-control {
+    width: 30vw;
+    height: 30vw;
+}
+
+#text-web {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#imagen-mando {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#text-web p {
+    width: 35vw;
+    color: white;
+    font-size: 1.5vw;
+    text-align: justify;
+    margin: 20px;
+}
+
+#text-web div {
+    border: 0.4vw solid rgb(135, 135, 135);
+    background-color: white;
+    height: 4vw;
+    width: 21vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#search-ico {
+    width: 2vw;
+    height: 2vw;
+}
+
+input {
+    font-family: 'Lexend';
+    font-size: 0.9vw;
+    height: 2vw;
+    width: 16vw;
+    border: 0;
+}
+
+input::placeholder {
+    text-decoration: underline;
+    font-size: 0.8vw;
+}
+
+#carouselExampleSlidesOnly {
+    width: 300vw;
+    max-height: 15vw;
+    padding: 0;
+    overflow: hidden;
+}
+
+#carouselExampleSlidesOnly .carousel-inner {
+    height: 100vh;
+}
+
+#carouselExampleSlidesOnly .carousel-item img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#absolute-text {
+    position: absolute;
+    color: white;
+    z-index: 1;
+    font-size: 1.5vw;
+    top: 45%;
+    left: 25%;
+}
+
+#cards {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+
+#cards a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    color: black;
+}
+
+.product {
+    border: 0.8vw solid rgb(135, 135, 135);
+    width: 25vw;
+    height: 25vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.product img {
+    width: 12vw;
+    height: 12vw;
+}
+
+.product:hover img {
+    -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    -o-transform:scale(1.25);
+    transform:scale(1.25);
+}
+
+.product p {
+    margin-top: 1vw;
+    font-size: 2.3vw;
+    text-align: center;
+}
+
+#footer {
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    background-color: rgb(135, 135, 135);
+}
+
+#info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contact {
+    width: fit-content;
+    font-size: 1.5vw;
+}
+
+#infcontanct {
+    width: fit-content;
+    font-size: 1vw;
+}
+
+#icons {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+#icons img {
+    margin: 1vw;
+    width: 3.5vw;
+}
+
+iframe {
+    width: 35vw;
+    height: 15vw;
+}
