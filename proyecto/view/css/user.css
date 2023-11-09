@@ -1,0 +1,39 @@
+#infoContent {
+    height: 20vw;
+}
+
+.colorText {
+    color: white;
+}
+
+#infoUser {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#logoutCont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#cerrarSesion{
+    background-color: white;
+    font-family: "Lexend";
+    font-size: 1.3vw;
+    width: 9vw;
+    color: black;
+    border: none;
+    margin-left: 1vw;
+}
+
+#cerrarSesion:hover {
+    background-color: gray;
+    color: white;
+    box-shadow: 0.3vw 0.3vw black;
+}
