@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "Lexend";
+    src: url(../font/lexendgiga.ttf);
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#imgPr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#infProd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#imgPr img {
+    margin: 2vw;
+    max-width: 32vw;
+    width: 32vw;
+}
+
+#infProd .descDeProd {
+    width: 40vw;
+    color: rgb(216, 216, 216);
+    font-size: 1.5vw;
+    text-align: justify;
+    font-weight: normal;
+}
+
+#infProd p {
+    font-size: 2vw;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.boton-comprar {
+    background-color: white;
+    font-family: "Lexend";
+    font-size: 1.3vw;
+    width: 9vw;
+    color: black;
+    border: none;
+    margin-left: 1vw;
+}
+
+.boton-comprar:hover {
+    background-color: gray;
+    color: white;
+    box-shadow: 0.3vw 0.3vw black;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+form input {
+    width: 3vw;
+    text-align: center;
+    font-size: 1.3vw;
+    margin-left: 1vw;
+}
+
+#infProd .cantidad-label {
+    font-size: 1.8vw;
+    font-weight: normal;
+}
